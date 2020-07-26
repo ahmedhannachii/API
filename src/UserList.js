@@ -20,8 +20,7 @@ const UserList = () => {
    <p>La liste des noms</p>
    {data.map(item => (
      <>
-    <li key={item.id}></li>
-    <li style={{color:"red"}} username={item.name}></li>
+    <li style={{color:"red"}}>{item.name}</li>
      </>
   ))}
 
